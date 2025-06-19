@@ -51,6 +51,13 @@ nav a:hover {
   text-align: center;
 }
 
+.section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+
 .section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
